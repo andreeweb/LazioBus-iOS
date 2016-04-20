@@ -1,0 +1,1588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6511FFC51923DCAA009D6A18 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511FFC31923DCAA009D6A18 /* MBProgressHUD.m */; };
+		6511FFCB1923E7B1009D6A18 /* LBPreferitiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511FFC91923E7B1009D6A18 /* LBPreferitiCell.m */; };
+		6511FFCC1923E7B1009D6A18 /* LBPreferitiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6511FFCA1923E7B1009D6A18 /* LBPreferitiCell.xib */; };
+		653121A11935D4CD00B513D7 /* LBCalcolaTariffaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6531219E1935D4CD00B513D7 /* LBCalcolaTariffaViewController.xib */; };
+		653121A21935D4CD00B513D7 /* LBCalcolaTariffaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531219F1935D4CD00B513D7 /* LBCalcolaTariffaViewController.m */; };
+		653121B71935DE2500B513D7 /* LBFare.m in Sources */ = {isa = PBXBuildFile; fileRef = 653121B61935DE2500B513D7 /* LBFare.m */; };
+		653121BC1935E46E00B513D7 /* LBCalcolaTariffaDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653121BA1935E46E00B513D7 /* LBCalcolaTariffaDetailController.m */; };
+		653121BD1935E46E00B513D7 /* LBCalcolaTariffaDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653121BB1935E46E00B513D7 /* LBCalcolaTariffaDetailController.xib */; };
+		653121C11935E4C700B513D7 /* LBTariffaDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 653121BF1935E4C700B513D7 /* LBTariffaDetailTableViewCell.m */; };
+		653121C21935E4C700B513D7 /* LBTariffaDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653121C01935E4C700B513D7 /* LBTariffaDetailTableViewCell.xib */; };
+		653A30301900657C00CE4BD9 /* LBLVResultDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653A302E1900657C00CE4BD9 /* LBLVResultDetailViewController.m */; };
+		653A30311900657C00CE4BD9 /* LBLVResultDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653A302F1900657C00CE4BD9 /* LBLVResultDetailViewController.xib */; };
+		653FB6A7193DAD8500E83643 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 653FB6A5193DAD8500E83643 /* Localizable.strings */; };
+		653FB6A8193DAD8500E83643 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 653FB6A5193DAD8500E83643 /* Localizable.strings */; };
+		654116D0193714AB00F65E55 /* LBLVStopsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654116CE193714AB00F65E55 /* LBLVStopsTableViewCell.m */; };
+		654116D1193714AB00F65E55 /* LBLVStopsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654116CF193714AB00F65E55 /* LBLVStopsTableViewCell.xib */; };
+		654116D2193714AF00F65E55 /* LBLVStopsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654116CE193714AB00F65E55 /* LBLVStopsTableViewCell.m */; };
+		654116D3193714B500F65E55 /* LBLVStopsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654116CF193714AB00F65E55 /* LBLVStopsTableViewCell.xib */; };
+		654116E5193C009600F65E55 /* LBCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654116E3193C009600F65E55 /* LBCreditsViewController.m */; };
+		654116E6193C009600F65E55 /* LBCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654116E3193C009600F65E55 /* LBCreditsViewController.m */; };
+		654116E7193C009600F65E55 /* LBCreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654116E4193C009600F65E55 /* LBCreditsViewController.xib */; };
+		654116E8193C009600F65E55 /* LBCreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654116E4193C009600F65E55 /* LBCreditsViewController.xib */; };
+		654461121924E58800934E76 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 654461101924E58800934E76 /* README.txt */; };
+		654461201924E5E200934E76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6544611F1924E5E200934E76 /* SystemConfiguration.framework */; };
+		6548ECD1192349ED00FF9D77 /* LBPopupList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548ECCF192349ED00FF9D77 /* LBPopupList.m */; };
+		6548ECD2192349ED00FF9D77 /* LBPopupList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6548ECD0192349ED00FF9D77 /* LBPopupList.xib */; };
+		6548ECE819238AC100FF9D77 /* LBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548ECE719238AC100FF9D77 /* LBButton.m */; };
+		654B106118E7261D00901E8D /* UILabel+Boldify.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106018E7261D00901E8D /* UILabel+Boldify.m */; };
+		654B106618E7343600901E8D /* LBListaFermateTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106418E7343600901E8D /* LBListaFermateTableController.m */; };
+		654B106718E7343600901E8D /* LBListaFermateTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B106518E7343600901E8D /* LBListaFermateTableController.xib */; };
+		654B106A18E7356600901E8D /* LBRouteStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106918E7356600901E8D /* LBRouteStop.m */; };
+		654B106F18E73E4A00901E8D /* LBListaFermateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106D18E73E4A00901E8D /* LBListaFermateCell.m */; };
+		654B107018E73E4A00901E8D /* LBListaFermateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B106E18E73E4A00901E8D /* LBListaFermateCell.xib */; };
+		654B794E18E0360D00FD6CD3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794418E0360D00FD6CD3 /* FMDatabase.m */; };
+		654B794F18E0360D00FD6CD3 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794618E0360D00FD6CD3 /* FMDatabaseAdditions.m */; };
+		654B795018E0360D00FD6CD3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794818E0360D00FD6CD3 /* FMDatabasePool.m */; };
+		654B795118E0360D00FD6CD3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794A18E0360D00FD6CD3 /* FMDatabaseQueue.m */; };
+		654B795218E0360D00FD6CD3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794D18E0360D00FD6CD3 /* FMResultSet.m */; };
+		654B795418E03C9800FD6CD3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654B795318E03C9800FD6CD3 /* libsqlite3.dylib */; };
+		6551E0EF184F3DCF009518D8 /* PercorsoAlternativoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6551E0EE184F3DCF009518D8 /* PercorsoAlternativoCell.xib */; };
+		6551E0F2184F3DE8009518D8 /* LBPercorsoAlternativoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6551E0F1184F3DE8009518D8 /* LBPercorsoAlternativoCell.m */; };
+		655D7F971935F77A00095187 /* LBListaFermateTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106418E7343600901E8D /* LBListaFermateTableController.m */; };
+		655D7F981935F77A00095187 /* LBTrovaPercorsoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE5E3184F1E53008CE93F /* LBTrovaPercorsoViewController.m */; };
+		655D7F991935F77A00095187 /* LBTrovaFermataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CE818FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.m */; };
+		655D7F9A1935F77A00095187 /* LBLVResultDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653A302E1900657C00CE4BD9 /* LBLVResultDetailViewController.m */; };
+		655D7F9B1935F77A00095187 /* LBListaFermateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106D18E73E4A00901E8D /* LBListaFermateCell.m */; };
+		655D7F9C1935F77A00095187 /* LBOrariDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135D219111CB80086BC60 /* LBOrariDetailViewController.m */; };
+		655D7F9D1935F77A00095187 /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE593184F13DE008CE93F /* LBAppDelegate.m */; };
+		655D7F9E1935F77A00095187 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511FFC31923DCAA009D6A18 /* MBProgressHUD.m */; };
+		655D7F9F1935F77A00095187 /* LBPreferitiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511FFC91923E7B1009D6A18 /* LBPreferitiCell.m */; };
+		655D7FA01935F77A00095187 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794418E0360D00FD6CD3 /* FMDatabase.m */; };
+		655D7FA11935F77A00095187 /* LBIndicazioniCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685E18D3374000B8D190 /* LBIndicazioniCellTableViewCell.m */; };
+		655D7FA21935F77A00095187 /* LBTrovaFermateLVResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CF318FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.m */; };
+		655D7FA31935F77A00095187 /* LBTariffaDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 653121BF1935E4C700B513D7 /* LBTariffaDetailTableViewCell.m */; };
+		655D7FA41935F77A00095187 /* LBPopupList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548ECCF192349ED00FF9D77 /* LBPopupList.m */; };
+		655D7FA51935F77A00095187 /* LBStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E23C0718D074B700AE2EC0 /* LBStop.m */; };
+		655D7FA61935F77A00095187 /* LBPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135C91910EED90086BC60 /* LBPDF.m */; };
+		655D7FA71935F77A00095187 /* LBTrovaFermataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CDB18FBCBF500A36DBA /* LBTrovaFermataViewController.m */; };
+		655D7FA81935F77A00095187 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794618E0360D00FD6CD3 /* FMDatabaseAdditions.m */; };
+		655D7FA91935F77A00095187 /* LBIndication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685A18D20C9E00B8D190 /* LBIndication.m */; };
+		655D7FAA1935F77A00095187 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794818E0360D00FD6CD3 /* FMDatabasePool.m */; };
+		655D7FAB1935F77A00095187 /* LBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C7D9118E0D13D00850488 /* LBSession.m */; };
+		655D7FAC1935F77A00095187 /* LBCalcolaTariffaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531219F1935D4CD00B513D7 /* LBCalcolaTariffaViewController.m */; };
+		655D7FAD1935F77A00095187 /* LBOrariTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135CC1910F20A0086BC60 /* LBOrariTableViewController.m */; };
+		655D7FAE1935F77A00095187 /* LBCalcolaTariffaDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653121BA1935E46E00B513D7 /* LBCalcolaTariffaDetailController.m */; };
+		655D7FAF1935F77A00095187 /* LBAlternativeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC093A190029C800FBAFB8 /* LBAlternativeTableViewController.m */; };
+		655D7FB01935F77A00095187 /* LBOrariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1F5AF1901C35000E76767 /* LBOrariViewController.m */; };
+		655D7FB11935F77A00095187 /* LBSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685018D1EE3300B8D190 /* LBSpinner.m */; };
+		655D7FB21935F77A00095187 /* ODScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CFA18FC29CF00A36DBA /* ODScrollMenu.m */; };
+		655D7FB31935F77A00095187 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794A18E0360D00FD6CD3 /* FMDatabaseQueue.m */; };
+		655D7FB41935F77A00095187 /* LBTrovaFermataRicercaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135C21910D5980086BC60 /* LBTrovaFermataRicercaViewController.m */; };
+		655D7FB51935F77A00095187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE58F184F13DE008CE93F /* main.m */; };
+		655D7FB61935F77A00095187 /* LBTrovaIndirizzoTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E23C0018D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.m */; };
+		655D7FB71935F77A00095187 /* LBTrovaPercorsoDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE60C184F3163008CE93F /* LBTrovaPercorsoDetailView.m */; };
+		655D7FB81935F77A00095187 /* LBFare.m in Sources */ = {isa = PBXBuildFile; fileRef = 653121B61935DE2500B513D7 /* LBFare.m */; };
+		655D7FB91935F77A00095187 /* LBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548ECE719238AC100FF9D77 /* LBButton.m */; };
+		655D7FBA1935F77A00095187 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B794D18E0360D00FD6CD3 /* FMResultSet.m */; };
+		655D7FBB1935F77A00095187 /* LBResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685618D20B0100B8D190 /* LBResults.m */; };
+		655D7FBC1935F77A00095187 /* LBLVResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CF818FBE5F300A36DBA /* LBLVResult.m */; };
+		655D7FBD1935F77A00095187 /* LBRouteStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106918E7356600901E8D /* LBRouteStop.m */; };
+		655D7FBE1935F77A00095187 /* UILabel+Boldify.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B106018E7261D00901E8D /* UILabel+Boldify.m */; };
+		655D7FBF1935F77A00095187 /* LBPercorsoAlternativoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6551E0F1184F3DE8009518D8 /* LBPercorsoAlternativoCell.m */; };
+		655D7FC01935F77A00095187 /* ODButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CFD18FC29E400A36DBA /* ODButton.m */; };
+		655D7FC21935F77A00095187 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6544611F1924E5E200934E76 /* SystemConfiguration.framework */; };
+		655D7FC41935F77A00095187 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6544611B1924E5D000934E76 /* MessageUI.framework */; };
+		655D7FC51935F77A00095187 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654461191924E5C700934E76 /* CoreTelephony.framework */; };
+		655D7FC61935F77A00095187 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654461171924E5B100934E76 /* AVFoundation.framework */; };
+		655D7FC71935F77A00095187 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654461151924E5A600934E76 /* AudioToolbox.framework */; };
+		655D7FC81935F77A00095187 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654461131924E59D00934E76 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		655D7FC91935F77A00095187 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 654B795318E03C9800FD6CD3 /* libsqlite3.dylib */; };
+		655D7FCA1935F77A00095187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE585184F13DE008CE93F /* CoreGraphics.framework */; };
+		655D7FCB1935F77A00095187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE587184F13DE008CE93F /* UIKit.framework */; };
+		655D7FCC1935F77A00095187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE583184F13DE008CE93F /* Foundation.framework */; };
+		655D7FCD1935F77A00095187 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6544610F1924E58800934E76 /* libGoogleAdMobAds.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		655D7FCF1935F77A00095187 /* LBTrovaIndirizzoTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E23C0118D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.xib */; };
+		655D7FD01935F77A00095187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 657CE58C184F13DE008CE93F /* InfoPlist.strings */; };
+		655D7FD11935F77A00095187 /* LBOrariTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657135CD1910F20A0086BC60 /* LBOrariTableViewController.xib */; };
+		655D7FD21935F77A00095187 /* LBIndicazioniCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6593685F18D3374000B8D190 /* LBIndicazioniCellTableViewCell.xib */; };
+		655D7FD31935F77A00095187 /* LBCalcolaTariffaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6531219E1935D4CD00B513D7 /* LBCalcolaTariffaViewController.xib */; };
+		655D7FD51935F77A00095187 /* LBOrariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C1F5B01901C35000E76767 /* LBOrariViewController.xib */; };
+		655D7FD61935F77A00095187 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 654461101924E58800934E76 /* README.txt */; };
+		655D7FD71935F77A00095187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657CE595184F13DE008CE93F /* Images.xcassets */; };
+		655D7FD81935F77A00095187 /* LBCalcolaTariffaDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653121BB1935E46E00B513D7 /* LBCalcolaTariffaDetailController.xib */; };
+		655D7FD91935F77A00095187 /* LBTariffaDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653121C01935E4C700B513D7 /* LBTariffaDetailTableViewCell.xib */; };
+		655D7FDA1935F77A00095187 /* LBTrovaFermataRicercaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657135C31910D5980086BC60 /* LBTrovaFermataRicercaViewController.xib */; };
+		655D7FDB1935F77A00095187 /* PercorsoAlternativoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6551E0EE184F3DCF009518D8 /* PercorsoAlternativoCell.xib */; };
+		655D7FDC1935F77A00095187 /* LBOrariDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657135D319111CB80086BC60 /* LBOrariDetailViewController.xib */; };
+		655D7FDD1935F77A00095187 /* LBLVResultDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653A302F1900657C00CE4BD9 /* LBLVResultDetailViewController.xib */; };
+		655D7FDE1935F77A00095187 /* LBTrovaPercorsoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CE5E4184F1E53008CE93F /* LBTrovaPercorsoViewController.xib */; };
+		655D7FDF1935F77A00095187 /* LBAlternativeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65BC093B190029C800FBAFB8 /* LBAlternativeTableViewController.xib */; };
+		655D7FE01935F77A00095187 /* LBMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CE5B2184F1453008CE93F /* LBMainController.xib */; };
+		655D7FE11935F77A00095187 /* LBTrovaFermateLVResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65852CF418FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.xib */; };
+		655D7FE21935F77A00095187 /* LBPopupList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6548ECD0192349ED00FF9D77 /* LBPopupList.xib */; };
+		655D7FE31935F77A00095187 /* LBPreferitiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6511FFCA1923E7B1009D6A18 /* LBPreferitiCell.xib */; };
+		655D7FE41935F77A00095187 /* LBListaFermateTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B106518E7343600901E8D /* LBListaFermateTableController.xib */; };
+		655D7FE51935F77A00095187 /* LBListaFermateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B106E18E73E4A00901E8D /* LBListaFermateCell.xib */; };
+		655D7FE61935F77A00095187 /* LBTrovaPercorsoDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CE60D184F3163008CE93F /* LBTrovaPercorsoDetailView.xib */; };
+		655D7FE71935F77A00095187 /* LBTrovaFermataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65852CE918FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.xib */; };
+		655D7FE81935F77A00095187 /* LBTrovaFermataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65852CDC18FBCBF500A36DBA /* LBTrovaFermataViewController.xib */; };
+		655D7FF119361C7900095187 /* LBMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7FEF19361C7900095187 /* LBMoreViewController.m */; };
+		655D7FF219361C7900095187 /* LBMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D7FF019361C7900095187 /* LBMoreViewController.xib */; };
+		655D7FF319361E4900095187 /* LBMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7FEF19361C7900095187 /* LBMoreViewController.m */; };
+		655D7FF419361EB600095187 /* LBMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D7FF019361C7900095187 /* LBMoreViewController.xib */; };
+		655D7FF91936222500095187 /* LBNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7FF71936222500095187 /* LBNewsViewController.m */; };
+		655D7FFA1936222500095187 /* LBNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D7FF81936222500095187 /* LBNewsViewController.xib */; };
+		655D80001936223E00095187 /* LBNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7FFE1936223E00095187 /* LBNewsDetailViewController.m */; };
+		655D80011936223E00095187 /* LBNewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D7FFF1936223E00095187 /* LBNewsDetailViewController.xib */; };
+		655D80051936224800095187 /* LBContattiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D80031936224800095187 /* LBContattiViewController.m */; };
+		655D80061936224800095187 /* LBContattiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D80041936224800095187 /* LBContattiViewController.xib */; };
+		655D800B19365BB300095187 /* LBNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D800919365BB300095187 /* LBNewsTableViewCell.m */; };
+		655D800C19365BB300095187 /* LBNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D800919365BB300095187 /* LBNewsTableViewCell.m */; };
+		655D800D19365BB300095187 /* LBNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D800A19365BB300095187 /* LBNewsTableViewCell.xib */; };
+		655D800E19365BB300095187 /* LBNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D800A19365BB300095187 /* LBNewsTableViewCell.xib */; };
+		655D801119365F0B00095187 /* LBNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D801019365F0B00095187 /* LBNews.m */; };
+		655D801219365F0B00095187 /* LBNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D801019365F0B00095187 /* LBNews.m */; };
+		655D80131936658E00095187 /* LBNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7FF71936222500095187 /* LBNewsViewController.m */; };
+		655D8014193665A100095187 /* LBNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D7FF81936222500095187 /* LBNewsViewController.xib */; };
+		655D8015193665A500095187 /* LBNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D7FFE1936223E00095187 /* LBNewsDetailViewController.m */; };
+		655D8016193665A700095187 /* LBNewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D7FFF1936223E00095187 /* LBNewsDetailViewController.xib */; };
+		655D8017193665AB00095187 /* LBContattiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D80031936224800095187 /* LBContattiViewController.m */; };
+		655D8018193665AE00095187 /* LBContattiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D80041936224800095187 /* LBContattiViewController.xib */; };
+		657135C41910D5980086BC60 /* LBTrovaFermataRicercaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135C21910D5980086BC60 /* LBTrovaFermataRicercaViewController.m */; };
+		657135C51910D5980086BC60 /* LBTrovaFermataRicercaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657135C31910D5980086BC60 /* LBTrovaFermataRicercaViewController.xib */; };
+		657135CA1910EED90086BC60 /* LBPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135C91910EED90086BC60 /* LBPDF.m */; };
+		657135CE1910F20A0086BC60 /* LBOrariTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135CC1910F20A0086BC60 /* LBOrariTableViewController.m */; };
+		657135CF1910F20A0086BC60 /* LBOrariTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657135CD1910F20A0086BC60 /* LBOrariTableViewController.xib */; };
+		657135D419111CB80086BC60 /* LBOrariDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657135D219111CB80086BC60 /* LBOrariDetailViewController.m */; };
+		657135D519111CB80086BC60 /* LBOrariDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657135D319111CB80086BC60 /* LBOrariDetailViewController.xib */; };
+		657CE584184F13DE008CE93F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE583184F13DE008CE93F /* Foundation.framework */; };
+		657CE588184F13DE008CE93F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE587184F13DE008CE93F /* UIKit.framework */; };
+		657CE58E184F13DE008CE93F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 657CE58C184F13DE008CE93F /* InfoPlist.strings */; };
+		657CE590184F13DE008CE93F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE58F184F13DE008CE93F /* main.m */; };
+		657CE594184F13DE008CE93F /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE593184F13DE008CE93F /* LBAppDelegate.m */; };
+		657CE596184F13DE008CE93F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657CE595184F13DE008CE93F /* Images.xcassets */; };
+		657CE59D184F13DE008CE93F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE59C184F13DE008CE93F /* XCTest.framework */; };
+		657CE59E184F13DE008CE93F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE583184F13DE008CE93F /* Foundation.framework */; };
+		657CE59F184F13DE008CE93F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CE587184F13DE008CE93F /* UIKit.framework */; };
+		657CE5A7184F13DE008CE93F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 657CE5A5184F13DE008CE93F /* InfoPlist.strings */; };
+		657CE5A9184F13DE008CE93F /* LazioBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE5A8184F13DE008CE93F /* LazioBusTests.m */; };
+		657CE5B3184F1453008CE93F /* LBMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CE5B2184F1453008CE93F /* LBMainController.xib */; };
+		657CE5E5184F1E53008CE93F /* LBTrovaPercorsoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE5E3184F1E53008CE93F /* LBTrovaPercorsoViewController.m */; };
+		657CE5E6184F1E53008CE93F /* LBTrovaPercorsoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CE5E4184F1E53008CE93F /* LBTrovaPercorsoViewController.xib */; };
+		657CE60E184F3163008CE93F /* LBTrovaPercorsoDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CE60C184F3163008CE93F /* LBTrovaPercorsoDetailView.m */; };
+		657CE60F184F3163008CE93F /* LBTrovaPercorsoDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CE60D184F3163008CE93F /* LBTrovaPercorsoDetailView.xib */; };
+		65852CDD18FBCBF500A36DBA /* LBTrovaFermataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CDB18FBCBF500A36DBA /* LBTrovaFermataViewController.m */; };
+		65852CDE18FBCBF500A36DBA /* LBTrovaFermataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65852CDC18FBCBF500A36DBA /* LBTrovaFermataViewController.xib */; };
+		65852CEA18FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CE818FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.m */; };
+		65852CEB18FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65852CE918FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.xib */; };
+		65852CF518FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CF318FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.m */; };
+		65852CF618FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65852CF418FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.xib */; };
+		65852CF918FBE5F300A36DBA /* LBLVResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CF818FBE5F300A36DBA /* LBLVResult.m */; };
+		65852CFC18FC29CF00A36DBA /* ODScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CFA18FC29CF00A36DBA /* ODScrollMenu.m */; };
+		65852CFF18FC29E400A36DBA /* ODButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65852CFD18FC29E400A36DBA /* ODButton.m */; };
+		658C7D9218E0D13D00850488 /* LBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 658C7D9118E0D13D00850488 /* LBSession.m */; };
+		6593685118D1EE3300B8D190 /* LBSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685018D1EE3300B8D190 /* LBSpinner.m */; };
+		6593685718D20B0100B8D190 /* LBResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685618D20B0100B8D190 /* LBResults.m */; };
+		6593685B18D20C9E00B8D190 /* LBIndication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685A18D20C9E00B8D190 /* LBIndication.m */; };
+		6593686018D3374000B8D190 /* LBIndicazioniCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593685E18D3374000B8D190 /* LBIndicazioniCellTableViewCell.m */; };
+		6593686118D3374000B8D190 /* LBIndicazioniCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6593685F18D3374000B8D190 /* LBIndicazioniCellTableViewCell.xib */; };
+		65BC093C190029C800FBAFB8 /* LBAlternativeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC093A190029C800FBAFB8 /* LBAlternativeTableViewController.m */; };
+		65BC093D190029C800FBAFB8 /* LBAlternativeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65BC093B190029C800FBAFB8 /* LBAlternativeTableViewController.xib */; };
+		65C1F5B11901C35000E76767 /* LBOrariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1F5AF1901C35000E76767 /* LBOrariViewController.m */; };
+		65C1F5B21901C35000E76767 /* LBOrariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C1F5B01901C35000E76767 /* LBOrariViewController.xib */; };
+		65E23C0218D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E23C0018D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.m */; };
+		65E23C0318D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E23C0118D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.xib */; };
+		65E23C0818D074B700AE2EC0 /* LBStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E23C0718D074B700AE2EC0 /* LBStop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657CE5A0184F13DE008CE93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657CE578184F13DE008CE93F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657CE57F184F13DE008CE93F;
+			remoteInfo = LazioBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6511FFC31923DCAA009D6A18 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgress/MBProgressHUD.m; sourceTree = "<group>"; };
+		6511FFC41923DCAA009D6A18 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgress/MBProgressHUD.h; sourceTree = "<group>"; };
+		6511FFC81923E7B1009D6A18 /* LBPreferitiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPreferitiCell.h; sourceTree = "<group>"; };
+		6511FFC91923E7B1009D6A18 /* LBPreferitiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPreferitiCell.m; sourceTree = "<group>"; };
+		6511FFCA1923E7B1009D6A18 /* LBPreferitiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBPreferitiCell.xib; sourceTree = "<group>"; };
+		6531219E1935D4CD00B513D7 /* LBCalcolaTariffaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBCalcolaTariffaViewController.xib; sourceTree = "<group>"; };
+		6531219F1935D4CD00B513D7 /* LBCalcolaTariffaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCalcolaTariffaViewController.m; sourceTree = "<group>"; };
+		653121A01935D4CD00B513D7 /* LBCalcolaTariffaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCalcolaTariffaViewController.h; sourceTree = "<group>"; };
+		653121B51935DE2500B513D7 /* LBFare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFare.h; sourceTree = "<group>"; };
+		653121B61935DE2500B513D7 /* LBFare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFare.m; sourceTree = "<group>"; };
+		653121B91935E46E00B513D7 /* LBCalcolaTariffaDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCalcolaTariffaDetailController.h; sourceTree = "<group>"; };
+		653121BA1935E46E00B513D7 /* LBCalcolaTariffaDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCalcolaTariffaDetailController.m; sourceTree = "<group>"; };
+		653121BB1935E46E00B513D7 /* LBCalcolaTariffaDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBCalcolaTariffaDetailController.xib; sourceTree = "<group>"; };
+		653121BE1935E4C700B513D7 /* LBTariffaDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTariffaDetailTableViewCell.h; sourceTree = "<group>"; };
+		653121BF1935E4C700B513D7 /* LBTariffaDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTariffaDetailTableViewCell.m; sourceTree = "<group>"; };
+		653121C01935E4C700B513D7 /* LBTariffaDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTariffaDetailTableViewCell.xib; sourceTree = "<group>"; };
+		653A302D1900657C00CE4BD9 /* LBLVResultDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLVResultDetailViewController.h; sourceTree = "<group>"; };
+		653A302E1900657C00CE4BD9 /* LBLVResultDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLVResultDetailViewController.m; sourceTree = "<group>"; };
+		653A302F1900657C00CE4BD9 /* LBLVResultDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBLVResultDetailViewController.xib; sourceTree = "<group>"; };
+		653FB6A6193DAD8500E83643 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		653FB6A9193DCD4C00E83643 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		653FB6AA193DCD4C00E83643 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		653FB6AB193DCD4C00E83643 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		653FB6AC193DEE2800E83643 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		653FB6AD193DEE2800E83643 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		653FB6AE193DEE2800E83643 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		654116CD193714AB00F65E55 /* LBLVStopsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLVStopsTableViewCell.h; sourceTree = "<group>"; };
+		654116CE193714AB00F65E55 /* LBLVStopsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLVStopsTableViewCell.m; sourceTree = "<group>"; };
+		654116CF193714AB00F65E55 /* LBLVStopsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBLVStopsTableViewCell.xib; sourceTree = "<group>"; };
+		654116E2193C009600F65E55 /* LBCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCreditsViewController.h; sourceTree = "<group>"; };
+		654116E3193C009600F65E55 /* LBCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCreditsViewController.m; sourceTree = "<group>"; };
+		654116E4193C009600F65E55 /* LBCreditsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBCreditsViewController.xib; sourceTree = "<group>"; };
+		6541C3CD1949D4460094E681 /* LazioBus Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LazioBus Lite-Info.plist"; sourceTree = "<group>"; };
+		654461031924E58800934E76 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		654461041924E58800934E76 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		654461051924E58800934E76 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		654461061924E58800934E76 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		654461071924E58800934E76 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		654461081924E58800934E76 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		654461091924E58800934E76 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		6544610A1924E58800934E76 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		6544610B1924E58800934E76 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		6544610C1924E58800934E76 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		6544610D1924E58800934E76 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		6544610E1924E58800934E76 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		6544610F1924E58800934E76 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		654461101924E58800934E76 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		654461131924E59D00934E76 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		654461151924E5A600934E76 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		654461171924E5B100934E76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		654461191924E5C700934E76 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6544611B1924E5D000934E76 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6544611F1924E5E200934E76 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6548ECCE192349ED00FF9D77 /* LBPopupList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPopupList.h; sourceTree = "<group>"; };
+		6548ECCF192349ED00FF9D77 /* LBPopupList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPopupList.m; sourceTree = "<group>"; };
+		6548ECD0192349ED00FF9D77 /* LBPopupList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBPopupList.xib; sourceTree = "<group>"; };
+		6548ECE619238AC100FF9D77 /* LBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBButton.h; sourceTree = "<group>"; };
+		6548ECE719238AC100FF9D77 /* LBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBButton.m; sourceTree = "<group>"; };
+		654B105F18E7261D00901E8D /* UILabel+Boldify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Boldify.h"; sourceTree = "<group>"; };
+		654B106018E7261D00901E8D /* UILabel+Boldify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Boldify.m"; sourceTree = "<group>"; };
+		654B106318E7343600901E8D /* LBListaFermateTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBListaFermateTableController.h; sourceTree = "<group>"; };
+		654B106418E7343600901E8D /* LBListaFermateTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBListaFermateTableController.m; sourceTree = "<group>"; };
+		654B106518E7343600901E8D /* LBListaFermateTableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBListaFermateTableController.xib; sourceTree = "<group>"; };
+		654B106818E7356600901E8D /* LBRouteStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBRouteStop.h; sourceTree = "<group>"; };
+		654B106918E7356600901E8D /* LBRouteStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBRouteStop.m; sourceTree = "<group>"; };
+		654B106C18E73E4A00901E8D /* LBListaFermateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBListaFermateCell.h; sourceTree = "<group>"; };
+		654B106D18E73E4A00901E8D /* LBListaFermateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBListaFermateCell.m; sourceTree = "<group>"; };
+		654B106E18E73E4A00901E8D /* LBListaFermateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBListaFermateCell.xib; sourceTree = "<group>"; };
+		654B794318E0360D00FD6CD3 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		654B794418E0360D00FD6CD3 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		654B794518E0360D00FD6CD3 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		654B794618E0360D00FD6CD3 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		654B794718E0360D00FD6CD3 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		654B794818E0360D00FD6CD3 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		654B794918E0360D00FD6CD3 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		654B794A18E0360D00FD6CD3 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		654B794B18E0360D00FD6CD3 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		654B794C18E0360D00FD6CD3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		654B794D18E0360D00FD6CD3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		654B795318E03C9800FD6CD3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6551E0EE184F3DCF009518D8 /* PercorsoAlternativoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PercorsoAlternativoCell.xib; sourceTree = "<group>"; };
+		6551E0F0184F3DE8009518D8 /* LBPercorsoAlternativoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPercorsoAlternativoCell.h; sourceTree = "<group>"; };
+		6551E0F1184F3DE8009518D8 /* LBPercorsoAlternativoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPercorsoAlternativoCell.m; sourceTree = "<group>"; };
+		655D7FEC1935F77A00095187 /* LazioBus Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LazioBus Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655D7FEE19361C7900095187 /* LBMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMoreViewController.h; sourceTree = "<group>"; };
+		655D7FEF19361C7900095187 /* LBMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMoreViewController.m; sourceTree = "<group>"; };
+		655D7FF019361C7900095187 /* LBMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBMoreViewController.xib; sourceTree = "<group>"; };
+		655D7FF61936222500095187 /* LBNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNewsViewController.h; sourceTree = "<group>"; };
+		655D7FF71936222500095187 /* LBNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNewsViewController.m; sourceTree = "<group>"; };
+		655D7FF81936222500095187 /* LBNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBNewsViewController.xib; sourceTree = "<group>"; };
+		655D7FFD1936223E00095187 /* LBNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNewsDetailViewController.h; sourceTree = "<group>"; };
+		655D7FFE1936223E00095187 /* LBNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNewsDetailViewController.m; sourceTree = "<group>"; };
+		655D7FFF1936223E00095187 /* LBNewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBNewsDetailViewController.xib; sourceTree = "<group>"; };
+		655D80021936224800095187 /* LBContattiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBContattiViewController.h; sourceTree = "<group>"; };
+		655D80031936224800095187 /* LBContattiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBContattiViewController.m; sourceTree = "<group>"; };
+		655D80041936224800095187 /* LBContattiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBContattiViewController.xib; sourceTree = "<group>"; };
+		655D800819365BB300095187 /* LBNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNewsTableViewCell.h; sourceTree = "<group>"; };
+		655D800919365BB300095187 /* LBNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNewsTableViewCell.m; sourceTree = "<group>"; };
+		655D800A19365BB300095187 /* LBNewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBNewsTableViewCell.xib; sourceTree = "<group>"; };
+		655D800F19365F0B00095187 /* LBNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNews.h; sourceTree = "<group>"; };
+		655D801019365F0B00095187 /* LBNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNews.m; sourceTree = "<group>"; };
+		657135C11910D5980086BC60 /* LBTrovaFermataRicercaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaFermataRicercaViewController.h; sourceTree = "<group>"; };
+		657135C21910D5980086BC60 /* LBTrovaFermataRicercaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaFermataRicercaViewController.m; sourceTree = "<group>"; };
+		657135C31910D5980086BC60 /* LBTrovaFermataRicercaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaFermataRicercaViewController.xib; sourceTree = "<group>"; };
+		657135C81910EED90086BC60 /* LBPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPDF.h; sourceTree = "<group>"; };
+		657135C91910EED90086BC60 /* LBPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPDF.m; sourceTree = "<group>"; };
+		657135CB1910F20A0086BC60 /* LBOrariTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBOrariTableViewController.h; sourceTree = "<group>"; };
+		657135CC1910F20A0086BC60 /* LBOrariTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBOrariTableViewController.m; sourceTree = "<group>"; };
+		657135CD1910F20A0086BC60 /* LBOrariTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBOrariTableViewController.xib; sourceTree = "<group>"; };
+		657135D119111CB80086BC60 /* LBOrariDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBOrariDetailViewController.h; sourceTree = "<group>"; };
+		657135D219111CB80086BC60 /* LBOrariDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBOrariDetailViewController.m; sourceTree = "<group>"; };
+		657135D319111CB80086BC60 /* LBOrariDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBOrariDetailViewController.xib; sourceTree = "<group>"; };
+		657135D619111FCF0086BC60 /* LBUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBUrl.h; sourceTree = "<group>"; };
+		657CE580184F13DE008CE93F /* LazioBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazioBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657CE583184F13DE008CE93F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		657CE585184F13DE008CE93F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		657CE587184F13DE008CE93F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		657CE58B184F13DE008CE93F /* LazioBus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LazioBus-Info.plist"; sourceTree = "<group>"; };
+		657CE58D184F13DE008CE93F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		657CE58F184F13DE008CE93F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		657CE591184F13DE008CE93F /* LazioBus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LazioBus-Prefix.pch"; sourceTree = "<group>"; };
+		657CE592184F13DE008CE93F /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		657CE593184F13DE008CE93F /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
+		657CE595184F13DE008CE93F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		657CE59B184F13DE008CE93F /* LazioBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazioBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657CE59C184F13DE008CE93F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		657CE5A4184F13DE008CE93F /* LazioBusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LazioBusTests-Info.plist"; sourceTree = "<group>"; };
+		657CE5A6184F13DE008CE93F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		657CE5A8184F13DE008CE93F /* LazioBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazioBusTests.m; sourceTree = "<group>"; };
+		657CE5B2184F1453008CE93F /* LBMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBMainController.xib; sourceTree = "<group>"; };
+		657CE5E2184F1E53008CE93F /* LBTrovaPercorsoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaPercorsoViewController.h; sourceTree = "<group>"; };
+		657CE5E3184F1E53008CE93F /* LBTrovaPercorsoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaPercorsoViewController.m; sourceTree = "<group>"; };
+		657CE5E4184F1E53008CE93F /* LBTrovaPercorsoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaPercorsoViewController.xib; sourceTree = "<group>"; };
+		657CE60B184F3163008CE93F /* LBTrovaPercorsoDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaPercorsoDetailView.h; sourceTree = "<group>"; };
+		657CE60C184F3163008CE93F /* LBTrovaPercorsoDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaPercorsoDetailView.m; sourceTree = "<group>"; };
+		657CE60D184F3163008CE93F /* LBTrovaPercorsoDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaPercorsoDetailView.xib; sourceTree = "<group>"; };
+		65852CDA18FBCBF500A36DBA /* LBTrovaFermataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaFermataViewController.h; sourceTree = "<group>"; };
+		65852CDB18FBCBF500A36DBA /* LBTrovaFermataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaFermataViewController.m; sourceTree = "<group>"; };
+		65852CDC18FBCBF500A36DBA /* LBTrovaFermataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaFermataViewController.xib; sourceTree = "<group>"; };
+		65852CE718FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaFermataTableViewCell.h; sourceTree = "<group>"; };
+		65852CE818FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaFermataTableViewCell.m; sourceTree = "<group>"; };
+		65852CE918FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaFermataTableViewCell.xib; sourceTree = "<group>"; };
+		65852CF218FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaFermateLVResultViewController.h; sourceTree = "<group>"; };
+		65852CF318FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaFermateLVResultViewController.m; sourceTree = "<group>"; };
+		65852CF418FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaFermateLVResultViewController.xib; sourceTree = "<group>"; };
+		65852CF718FBE5F300A36DBA /* LBLVResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLVResult.h; sourceTree = "<group>"; };
+		65852CF818FBE5F300A36DBA /* LBLVResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLVResult.m; sourceTree = "<group>"; };
+		65852CFA18FC29CF00A36DBA /* ODScrollMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODScrollMenu.m; sourceTree = "<group>"; };
+		65852CFB18FC29CF00A36DBA /* ODScrollMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODScrollMenu.h; sourceTree = "<group>"; };
+		65852CFD18FC29E400A36DBA /* ODButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODButton.m; sourceTree = "<group>"; };
+		65852CFE18FC29E400A36DBA /* ODButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODButton.h; sourceTree = "<group>"; };
+		658C7D9018E0D13D00850488 /* LBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSession.h; sourceTree = "<group>"; };
+		658C7D9118E0D13D00850488 /* LBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSession.m; sourceTree = "<group>"; };
+		6593684F18D1EE3300B8D190 /* LBSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSpinner.h; sourceTree = "<group>"; };
+		6593685018D1EE3300B8D190 /* LBSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSpinner.m; sourceTree = "<group>"; };
+		6593685518D20B0100B8D190 /* LBResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBResults.h; sourceTree = "<group>"; };
+		6593685618D20B0100B8D190 /* LBResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBResults.m; sourceTree = "<group>"; };
+		6593685918D20C9E00B8D190 /* LBIndication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBIndication.h; sourceTree = "<group>"; };
+		6593685A18D20C9E00B8D190 /* LBIndication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBIndication.m; sourceTree = "<group>"; };
+		6593685D18D3374000B8D190 /* LBIndicazioniCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBIndicazioniCellTableViewCell.h; sourceTree = "<group>"; };
+		6593685E18D3374000B8D190 /* LBIndicazioniCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBIndicazioniCellTableViewCell.m; sourceTree = "<group>"; };
+		6593685F18D3374000B8D190 /* LBIndicazioniCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBIndicazioniCellTableViewCell.xib; sourceTree = "<group>"; };
+		65BC0939190029C800FBAFB8 /* LBAlternativeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAlternativeTableViewController.h; sourceTree = "<group>"; };
+		65BC093A190029C800FBAFB8 /* LBAlternativeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAlternativeTableViewController.m; sourceTree = "<group>"; };
+		65BC093B190029C800FBAFB8 /* LBAlternativeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBAlternativeTableViewController.xib; sourceTree = "<group>"; };
+		65C1F5AE1901C35000E76767 /* LBOrariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBOrariViewController.h; sourceTree = "<group>"; };
+		65C1F5AF1901C35000E76767 /* LBOrariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBOrariViewController.m; sourceTree = "<group>"; };
+		65C1F5B01901C35000E76767 /* LBOrariViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBOrariViewController.xib; sourceTree = "<group>"; };
+		65E23BFF18D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTrovaIndirizzoTableController.h; sourceTree = "<group>"; };
+		65E23C0018D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTrovaIndirizzoTableController.m; sourceTree = "<group>"; };
+		65E23C0118D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LBTrovaIndirizzoTableController.xib; sourceTree = "<group>"; };
+		65E23C0618D074B700AE2EC0 /* LBStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBStop.h; sourceTree = "<group>"; };
+		65E23C0718D074B700AE2EC0 /* LBStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBStop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655D7FC11935F77A00095187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655D7FC21935F77A00095187 /* SystemConfiguration.framework in Frameworks */,
+				655D7FC41935F77A00095187 /* MessageUI.framework in Frameworks */,
+				655D7FC51935F77A00095187 /* CoreTelephony.framework in Frameworks */,
+				655D7FC61935F77A00095187 /* AVFoundation.framework in Frameworks */,
+				655D7FC71935F77A00095187 /* AudioToolbox.framework in Frameworks */,
+				655D7FC81935F77A00095187 /* AdSupport.framework in Frameworks */,
+				655D7FC91935F77A00095187 /* libsqlite3.dylib in Frameworks */,
+				655D7FCA1935F77A00095187 /* CoreGraphics.framework in Frameworks */,
+				655D7FCB1935F77A00095187 /* UIKit.framework in Frameworks */,
+				655D7FCC1935F77A00095187 /* Foundation.framework in Frameworks */,
+				655D7FCD1935F77A00095187 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE57D184F13DE008CE93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654461201924E5E200934E76 /* SystemConfiguration.framework in Frameworks */,
+				654B795418E03C9800FD6CD3 /* libsqlite3.dylib in Frameworks */,
+				657CE588184F13DE008CE93F /* UIKit.framework in Frameworks */,
+				657CE584184F13DE008CE93F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE598184F13DE008CE93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657CE59D184F13DE008CE93F /* XCTest.framework in Frameworks */,
+				657CE59F184F13DE008CE93F /* UIKit.framework in Frameworks */,
+				657CE59E184F13DE008CE93F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6509610118DCBDCE00AC3878 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				6548ECE21923811300FF9D77 /* Cell trova indirizzo */,
+				654B106B18E73E0800901E8D /* Cell lista fermate */,
+				6593685C18D3371D00B8D190 /* Cell Indicazioni */,
+				6551E0ED184F3DA0009518D8 /* Cell Percorso alternativo */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		6509610218DCBDEC00AC3878 /* AlternativePercorso */ = {
+			isa = PBXGroup;
+			children = (
+				65BC0939190029C800FBAFB8 /* LBAlternativeTableViewController.h */,
+				65BC093A190029C800FBAFB8 /* LBAlternativeTableViewController.m */,
+				65BC093B190029C800FBAFB8 /* LBAlternativeTableViewController.xib */,
+			);
+			name = AlternativePercorso;
+			sourceTree = "<group>";
+		};
+		6511FFBF1923DC74009D6A18 /* MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6511FFC31923DCAA009D6A18 /* MBProgressHUD.m */,
+				6511FFC41923DCAA009D6A18 /* MBProgressHUD.h */,
+			);
+			name = MBProgress;
+			sourceTree = "<group>";
+		};
+		653121A31935D9DD00B513D7 /* calcolaTariffaMaster */ = {
+			isa = PBXGroup;
+			children = (
+				653121A01935D4CD00B513D7 /* LBCalcolaTariffaViewController.h */,
+				6531219F1935D4CD00B513D7 /* LBCalcolaTariffaViewController.m */,
+				6531219E1935D4CD00B513D7 /* LBCalcolaTariffaViewController.xib */,
+			);
+			name = calcolaTariffaMaster;
+			sourceTree = "<group>";
+		};
+		653121A41935D9E500B513D7 /* calcolaTariffaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				653121B91935E46E00B513D7 /* LBCalcolaTariffaDetailController.h */,
+				653121BA1935E46E00B513D7 /* LBCalcolaTariffaDetailController.m */,
+				653121BB1935E46E00B513D7 /* LBCalcolaTariffaDetailController.xib */,
+			);
+			name = calcolaTariffaDetail;
+			sourceTree = "<group>";
+		};
+		653121AA1935DA8800B513D7 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				653121BE1935E4C700B513D7 /* LBTariffaDetailTableViewCell.h */,
+				653121BF1935E4C700B513D7 /* LBTariffaDetailTableViewCell.m */,
+				653121C01935E4C700B513D7 /* LBTariffaDetailTableViewCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		653A302C1900656100CE4BD9 /* LVResultDetail */ = {
+			isa = PBXGroup;
+			children = (
+				653A302D1900657C00CE4BD9 /* LBLVResultDetailViewController.h */,
+				653A302E1900657C00CE4BD9 /* LBLVResultDetailViewController.m */,
+				653A302F1900657C00CE4BD9 /* LBLVResultDetailViewController.xib */,
+			);
+			name = LVResultDetail;
+			sourceTree = "<group>";
+		};
+		654116CB1937145E00F65E55 /* customCellLvDetail */ = {
+			isa = PBXGroup;
+			children = (
+				65852CE718FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.h */,
+				65852CE818FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.m */,
+				65852CE918FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.xib */,
+			);
+			name = customCellLvDetail;
+			sourceTree = "<group>";
+		};
+		654116CC1937146B00F65E55 /* customCellLVStops */ = {
+			isa = PBXGroup;
+			children = (
+				654116CD193714AB00F65E55 /* LBLVStopsTableViewCell.h */,
+				654116CE193714AB00F65E55 /* LBLVStopsTableViewCell.m */,
+				654116CF193714AB00F65E55 /* LBLVStopsTableViewCell.xib */,
+			);
+			name = customCellLVStops;
+			sourceTree = "<group>";
+		};
+		654461021924E58800934E76 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				654461031924E58800934E76 /* GADAdMobExtras.h */,
+				654461041924E58800934E76 /* GADAdNetworkExtras.h */,
+				654461051924E58800934E76 /* GADAdSize.h */,
+				654461061924E58800934E76 /* GADBannerView.h */,
+				654461071924E58800934E76 /* GADBannerViewDelegate.h */,
+				654461081924E58800934E76 /* GADInAppPurchase.h */,
+				654461091924E58800934E76 /* GADInAppPurchaseDelegate.h */,
+				6544610A1924E58800934E76 /* GADInterstitial.h */,
+				6544610B1924E58800934E76 /* GADInterstitialDelegate.h */,
+				6544610C1924E58800934E76 /* GADModules.h */,
+				6544610D1924E58800934E76 /* GADRequest.h */,
+				6544610E1924E58800934E76 /* GADRequestError.h */,
+				6544610F1924E58800934E76 /* libGoogleAdMobAds.a */,
+				654461101924E58800934E76 /* README.txt */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		6548ECCD192349C600FF9D77 /* LBPopup */ = {
+			isa = PBXGroup;
+			children = (
+				6548ECCE192349ED00FF9D77 /* LBPopupList.h */,
+				6548ECCF192349ED00FF9D77 /* LBPopupList.m */,
+				6548ECD0192349ED00FF9D77 /* LBPopupList.xib */,
+			);
+			name = LBPopup;
+			sourceTree = "<group>";
+		};
+		6548ECE21923811300FF9D77 /* Cell trova indirizzo */ = {
+			isa = PBXGroup;
+			children = (
+				6511FFC81923E7B1009D6A18 /* LBPreferitiCell.h */,
+				6511FFC91923E7B1009D6A18 /* LBPreferitiCell.m */,
+				6511FFCA1923E7B1009D6A18 /* LBPreferitiCell.xib */,
+			);
+			name = "Cell trova indirizzo";
+			sourceTree = "<group>";
+		};
+		654B106218E7341400901E8D /* ListaFermate */ = {
+			isa = PBXGroup;
+			children = (
+				654B106318E7343600901E8D /* LBListaFermateTableController.h */,
+				654B106418E7343600901E8D /* LBListaFermateTableController.m */,
+				654B106518E7343600901E8D /* LBListaFermateTableController.xib */,
+			);
+			name = ListaFermate;
+			sourceTree = "<group>";
+		};
+		654B106B18E73E0800901E8D /* Cell lista fermate */ = {
+			isa = PBXGroup;
+			children = (
+				654B106C18E73E4A00901E8D /* LBListaFermateCell.h */,
+				654B106D18E73E4A00901E8D /* LBListaFermateCell.m */,
+				654B106E18E73E4A00901E8D /* LBListaFermateCell.xib */,
+			);
+			name = "Cell lista fermate";
+			sourceTree = "<group>";
+		};
+		654B794218E0360D00FD6CD3 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				654B794318E0360D00FD6CD3 /* FMDatabase.h */,
+				654B794418E0360D00FD6CD3 /* FMDatabase.m */,
+				654B794518E0360D00FD6CD3 /* FMDatabaseAdditions.h */,
+				654B794618E0360D00FD6CD3 /* FMDatabaseAdditions.m */,
+				654B794718E0360D00FD6CD3 /* FMDatabasePool.h */,
+				654B794818E0360D00FD6CD3 /* FMDatabasePool.m */,
+				654B794918E0360D00FD6CD3 /* FMDatabaseQueue.h */,
+				654B794A18E0360D00FD6CD3 /* FMDatabaseQueue.m */,
+				654B794B18E0360D00FD6CD3 /* FMDB.h */,
+				654B794C18E0360D00FD6CD3 /* FMResultSet.h */,
+				654B794D18E0360D00FD6CD3 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		6551E0ED184F3DA0009518D8 /* Cell Percorso alternativo */ = {
+			isa = PBXGroup;
+			children = (
+				6551E0F0184F3DE8009518D8 /* LBPercorsoAlternativoCell.h */,
+				6551E0F1184F3DE8009518D8 /* LBPercorsoAlternativoCell.m */,
+				6551E0EE184F3DCF009518D8 /* PercorsoAlternativoCell.xib */,
+			);
+			name = "Cell Percorso alternativo";
+			sourceTree = "<group>";
+		};
+		655D7FF51936220D00095187 /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				654116E2193C009600F65E55 /* LBCreditsViewController.h */,
+				654116E3193C009600F65E55 /* LBCreditsViewController.m */,
+				654116E4193C009600F65E55 /* LBCreditsViewController.xib */,
+			);
+			name = Credits;
+			sourceTree = "<group>";
+		};
+		655D7FFB1936222B00095187 /* NewsMaster */ = {
+			isa = PBXGroup;
+			children = (
+				655D7FF61936222500095187 /* LBNewsViewController.h */,
+				655D7FF71936222500095187 /* LBNewsViewController.m */,
+				655D7FF81936222500095187 /* LBNewsViewController.xib */,
+			);
+			name = NewsMaster;
+			sourceTree = "<group>";
+		};
+		655D7FFC1936223000095187 /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				655D7FFD1936223E00095187 /* LBNewsDetailViewController.h */,
+				655D7FFE1936223E00095187 /* LBNewsDetailViewController.m */,
+				655D7FFF1936223E00095187 /* LBNewsDetailViewController.xib */,
+			);
+			name = NewsDetail;
+			sourceTree = "<group>";
+		};
+		655D800719365B8700095187 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				655D800819365BB300095187 /* LBNewsTableViewCell.h */,
+				655D800919365BB300095187 /* LBNewsTableViewCell.m */,
+				655D800A19365BB300095187 /* LBNewsTableViewCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		657135C01910D5710086BC60 /* TrovaFermataRicerca */ = {
+			isa = PBXGroup;
+			children = (
+				657135C11910D5980086BC60 /* LBTrovaFermataRicercaViewController.h */,
+				657135C21910D5980086BC60 /* LBTrovaFermataRicercaViewController.m */,
+				657135C31910D5980086BC60 /* LBTrovaFermataRicercaViewController.xib */,
+			);
+			name = TrovaFermataRicerca;
+			sourceTree = "<group>";
+		};
+		657135D019111C9D0086BC60 /* LBOrariWebView */ = {
+			isa = PBXGroup;
+			children = (
+				657135D119111CB80086BC60 /* LBOrariDetailViewController.h */,
+				657135D219111CB80086BC60 /* LBOrariDetailViewController.m */,
+				657135D319111CB80086BC60 /* LBOrariDetailViewController.xib */,
+			);
+			name = LBOrariWebView;
+			sourceTree = "<group>";
+		};
+		657CE577184F13DE008CE93F = {
+			isa = PBXGroup;
+			children = (
+				657CE589184F13DE008CE93F /* LazioBus */,
+				657CE5A2184F13DE008CE93F /* LazioBusTests */,
+				657CE582184F13DE008CE93F /* Frameworks */,
+				657CE581184F13DE008CE93F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657CE581184F13DE008CE93F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657CE580184F13DE008CE93F /* LazioBus.app */,
+				657CE59B184F13DE008CE93F /* LazioBusTests.xctest */,
+				655D7FEC1935F77A00095187 /* LazioBus Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657CE582184F13DE008CE93F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6544611F1924E5E200934E76 /* SystemConfiguration.framework */,
+				6544611B1924E5D000934E76 /* MessageUI.framework */,
+				654461191924E5C700934E76 /* CoreTelephony.framework */,
+				654461171924E5B100934E76 /* AVFoundation.framework */,
+				654461151924E5A600934E76 /* AudioToolbox.framework */,
+				654461131924E59D00934E76 /* AdSupport.framework */,
+				654461021924E58800934E76 /* AdMob */,
+				6511FFBF1923DC74009D6A18 /* MBProgress */,
+				654B795318E03C9800FD6CD3 /* libsqlite3.dylib */,
+				654B794218E0360D00FD6CD3 /* FMDB */,
+				657CE583184F13DE008CE93F /* Foundation.framework */,
+				657CE585184F13DE008CE93F /* CoreGraphics.framework */,
+				657CE587184F13DE008CE93F /* UIKit.framework */,
+				657CE59C184F13DE008CE93F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		657CE589184F13DE008CE93F /* LazioBus */ = {
+			isa = PBXGroup;
+			children = (
+				65E23C0518D0749C00AE2EC0 /* LBClass */,
+				657CE5E1184F1E19008CE93F /* LBMainClass */,
+				657CE5DA184F1DC7008CE93F /* TrovaPercorso */,
+				657CE5DB184F1DD0008CE93F /* TrovaFermata */,
+				657CE5DC184F1DDD008CE93F /* CalcolaTariffa */,
+				657CE5DD184F1DE4008CE93F /* Orari */,
+				657CE5DE184F1DE9008CE93F /* More */,
+				657CE595184F13DE008CE93F /* Images.xcassets */,
+				657CE58A184F13DE008CE93F /* Supporting Files */,
+			);
+			path = LazioBus;
+			sourceTree = "<group>";
+		};
+		657CE58A184F13DE008CE93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6541C3CD1949D4460094E681 /* LazioBus Lite-Info.plist */,
+				653FB6A5193DAD8500E83643 /* Localizable.strings */,
+				657CE58B184F13DE008CE93F /* LazioBus-Info.plist */,
+				657CE58C184F13DE008CE93F /* InfoPlist.strings */,
+				657CE58F184F13DE008CE93F /* main.m */,
+				657CE591184F13DE008CE93F /* LazioBus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		657CE5A2184F13DE008CE93F /* LazioBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				657CE5A8184F13DE008CE93F /* LazioBusTests.m */,
+				657CE5A3184F13DE008CE93F /* Supporting Files */,
+			);
+			path = LazioBusTests;
+			sourceTree = "<group>";
+		};
+		657CE5A3184F13DE008CE93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657CE5A4184F13DE008CE93F /* LazioBusTests-Info.plist */,
+				657CE5A5184F13DE008CE93F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		657CE5DA184F1DC7008CE93F /* TrovaPercorso */ = {
+			isa = PBXGroup;
+			children = (
+				6509610118DCBDCE00AC3878 /* CustomCell */,
+				65E23C0418D06C0200AE2EC0 /* TrovaIndirizzo */,
+				657CE609184F312F008CE93F /* TrovaPercorsoMain */,
+				657CE60A184F3146008CE93F /* TrovaPercorsoDetail */,
+				6509610218DCBDEC00AC3878 /* AlternativePercorso */,
+				654B106218E7341400901E8D /* ListaFermate */,
+			);
+			name = TrovaPercorso;
+			sourceTree = "<group>";
+		};
+		657CE5DB184F1DD0008CE93F /* TrovaFermata */ = {
+			isa = PBXGroup;
+			children = (
+				65BC093E1900376F00FBAFB8 /* CustomCell */,
+				65852CDF18FBD19600A36DBA /* TrovaFermataMain */,
+				657135C01910D5710086BC60 /* TrovaFermataRicerca */,
+				65852CEC18FBE43800A36DBA /* LVResultMaster */,
+				653A302C1900656100CE4BD9 /* LVResultDetail */,
+			);
+			name = TrovaFermata;
+			sourceTree = "<group>";
+		};
+		657CE5DC184F1DDD008CE93F /* CalcolaTariffa */ = {
+			isa = PBXGroup;
+			children = (
+				653121AA1935DA8800B513D7 /* CustomCell */,
+				653121A31935D9DD00B513D7 /* calcolaTariffaMaster */,
+				653121A41935D9E500B513D7 /* calcolaTariffaDetail */,
+			);
+			name = CalcolaTariffa;
+			sourceTree = "<group>";
+		};
+		657CE5DD184F1DE4008CE93F /* Orari */ = {
+			isa = PBXGroup;
+			children = (
+				6548ECCD192349C600FF9D77 /* LBPopup */,
+				65C1F5B31901C42D00E76767 /* OrariMain */,
+				65C1F5B41901C43300E76767 /* OrariTableList */,
+				657135D019111C9D0086BC60 /* LBOrariWebView */,
+			);
+			name = Orari;
+			sourceTree = "<group>";
+		};
+		657CE5DE184F1DE9008CE93F /* More */ = {
+			isa = PBXGroup;
+			children = (
+				655D7FEE19361C7900095187 /* LBMoreViewController.h */,
+				655D7FEF19361C7900095187 /* LBMoreViewController.m */,
+				655D7FF019361C7900095187 /* LBMoreViewController.xib */,
+				657CE5DF184F1DF2008CE93F /* News */,
+				657CE5E0184F1DF7008CE93F /* Contatti */,
+				655D7FF51936220D00095187 /* Credits */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		657CE5DF184F1DF2008CE93F /* News */ = {
+			isa = PBXGroup;
+			children = (
+				655D800719365B8700095187 /* CustomCell */,
+				655D7FFB1936222B00095187 /* NewsMaster */,
+				655D7FFC1936223000095187 /* NewsDetail */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		657CE5E0184F1DF7008CE93F /* Contatti */ = {
+			isa = PBXGroup;
+			children = (
+				655D80021936224800095187 /* LBContattiViewController.h */,
+				655D80031936224800095187 /* LBContattiViewController.m */,
+				655D80041936224800095187 /* LBContattiViewController.xib */,
+			);
+			name = Contatti;
+			sourceTree = "<group>";
+		};
+		657CE5E1184F1E19008CE93F /* LBMainClass */ = {
+			isa = PBXGroup;
+			children = (
+				657CE592184F13DE008CE93F /* LBAppDelegate.h */,
+				657CE593184F13DE008CE93F /* LBAppDelegate.m */,
+				657CE5B2184F1453008CE93F /* LBMainController.xib */,
+			);
+			name = LBMainClass;
+			sourceTree = "<group>";
+		};
+		657CE609184F312F008CE93F /* TrovaPercorsoMain */ = {
+			isa = PBXGroup;
+			children = (
+				657CE5E2184F1E53008CE93F /* LBTrovaPercorsoViewController.h */,
+				657CE5E3184F1E53008CE93F /* LBTrovaPercorsoViewController.m */,
+				657CE5E4184F1E53008CE93F /* LBTrovaPercorsoViewController.xib */,
+			);
+			name = TrovaPercorsoMain;
+			sourceTree = "<group>";
+		};
+		657CE60A184F3146008CE93F /* TrovaPercorsoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				657CE60B184F3163008CE93F /* LBTrovaPercorsoDetailView.h */,
+				657CE60C184F3163008CE93F /* LBTrovaPercorsoDetailView.m */,
+				657CE60D184F3163008CE93F /* LBTrovaPercorsoDetailView.xib */,
+			);
+			name = TrovaPercorsoDetail;
+			sourceTree = "<group>";
+		};
+		65852CDF18FBD19600A36DBA /* TrovaFermataMain */ = {
+			isa = PBXGroup;
+			children = (
+				65852CDA18FBCBF500A36DBA /* LBTrovaFermataViewController.h */,
+				65852CDB18FBCBF500A36DBA /* LBTrovaFermataViewController.m */,
+				65852CDC18FBCBF500A36DBA /* LBTrovaFermataViewController.xib */,
+			);
+			name = TrovaFermataMain;
+			sourceTree = "<group>";
+		};
+		65852CEC18FBE43800A36DBA /* LVResultMaster */ = {
+			isa = PBXGroup;
+			children = (
+				65852CF218FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.h */,
+				65852CF318FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.m */,
+				65852CF418FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.xib */,
+			);
+			name = LVResultMaster;
+			sourceTree = "<group>";
+		};
+		65852D0018FC29E800A36DBA /* ACScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				65852CFD18FC29E400A36DBA /* ODButton.m */,
+				65852CFE18FC29E400A36DBA /* ODButton.h */,
+				65852CFA18FC29CF00A36DBA /* ODScrollMenu.m */,
+				65852CFB18FC29CF00A36DBA /* ODScrollMenu.h */,
+			);
+			name = ACScrollMenu;
+			sourceTree = "<group>";
+		};
+		6593685C18D3371D00B8D190 /* Cell Indicazioni */ = {
+			isa = PBXGroup;
+			children = (
+				6593685D18D3374000B8D190 /* LBIndicazioniCellTableViewCell.h */,
+				6593685E18D3374000B8D190 /* LBIndicazioniCellTableViewCell.m */,
+				6593685F18D3374000B8D190 /* LBIndicazioniCellTableViewCell.xib */,
+			);
+			name = "Cell Indicazioni";
+			sourceTree = "<group>";
+		};
+		65BC093E1900376F00FBAFB8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				654116CC1937146B00F65E55 /* customCellLVStops */,
+				654116CB1937145E00F65E55 /* customCellLvDetail */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		65C1F5B31901C42D00E76767 /* OrariMain */ = {
+			isa = PBXGroup;
+			children = (
+				65C1F5AE1901C35000E76767 /* LBOrariViewController.h */,
+				65C1F5AF1901C35000E76767 /* LBOrariViewController.m */,
+				65C1F5B01901C35000E76767 /* LBOrariViewController.xib */,
+			);
+			name = OrariMain;
+			sourceTree = "<group>";
+		};
+		65C1F5B41901C43300E76767 /* OrariTableList */ = {
+			isa = PBXGroup;
+			children = (
+				657135CB1910F20A0086BC60 /* LBOrariTableViewController.h */,
+				657135CC1910F20A0086BC60 /* LBOrariTableViewController.m */,
+				657135CD1910F20A0086BC60 /* LBOrariTableViewController.xib */,
+			);
+			name = OrariTableList;
+			sourceTree = "<group>";
+		};
+		65E23C0418D06C0200AE2EC0 /* TrovaIndirizzo */ = {
+			isa = PBXGroup;
+			children = (
+				65E23BFF18D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.h */,
+				65E23C0018D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.m */,
+				65E23C0118D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.xib */,
+			);
+			name = TrovaIndirizzo;
+			sourceTree = "<group>";
+		};
+		65E23C0518D0749C00AE2EC0 /* LBClass */ = {
+			isa = PBXGroup;
+			children = (
+				65852D0018FC29E800A36DBA /* ACScrollMenu */,
+				657135D619111FCF0086BC60 /* LBUrl.h */,
+				65E23C0618D074B700AE2EC0 /* LBStop.h */,
+				65E23C0718D074B700AE2EC0 /* LBStop.m */,
+				6593684F18D1EE3300B8D190 /* LBSpinner.h */,
+				6593685018D1EE3300B8D190 /* LBSpinner.m */,
+				6593685518D20B0100B8D190 /* LBResults.h */,
+				6593685618D20B0100B8D190 /* LBResults.m */,
+				6593685918D20C9E00B8D190 /* LBIndication.h */,
+				6593685A18D20C9E00B8D190 /* LBIndication.m */,
+				658C7D9018E0D13D00850488 /* LBSession.h */,
+				658C7D9118E0D13D00850488 /* LBSession.m */,
+				654B105F18E7261D00901E8D /* UILabel+Boldify.h */,
+				654B106018E7261D00901E8D /* UILabel+Boldify.m */,
+				654B106818E7356600901E8D /* LBRouteStop.h */,
+				654B106918E7356600901E8D /* LBRouteStop.m */,
+				65852CF718FBE5F300A36DBA /* LBLVResult.h */,
+				65852CF818FBE5F300A36DBA /* LBLVResult.m */,
+				657135C81910EED90086BC60 /* LBPDF.h */,
+				657135C91910EED90086BC60 /* LBPDF.m */,
+				6548ECE619238AC100FF9D77 /* LBButton.h */,
+				6548ECE719238AC100FF9D77 /* LBButton.m */,
+				653121B51935DE2500B513D7 /* LBFare.h */,
+				653121B61935DE2500B513D7 /* LBFare.m */,
+				655D800F19365F0B00095187 /* LBNews.h */,
+				655D801019365F0B00095187 /* LBNews.m */,
+			);
+			name = LBClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655D7F951935F77A00095187 /* LazioBus Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655D7FE91935F77A00095187 /* Build configuration list for PBXNativeTarget "LazioBus Lite" */;
+			buildPhases = (
+				655D7F961935F77A00095187 /* Sources */,
+				655D7FC11935F77A00095187 /* Frameworks */,
+				655D7FCE1935F77A00095187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LazioBus Lite";
+			productName = LazioBus;
+			productReference = 655D7FEC1935F77A00095187 /* LazioBus Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657CE57F184F13DE008CE93F /* LazioBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657CE5AC184F13DE008CE93F /* Build configuration list for PBXNativeTarget "LazioBus" */;
+			buildPhases = (
+				657CE57C184F13DE008CE93F /* Sources */,
+				657CE57D184F13DE008CE93F /* Frameworks */,
+				657CE57E184F13DE008CE93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazioBus;
+			productName = LazioBus;
+			productReference = 657CE580184F13DE008CE93F /* LazioBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657CE59A184F13DE008CE93F /* LazioBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657CE5AF184F13DE008CE93F /* Build configuration list for PBXNativeTarget "LazioBusTests" */;
+			buildPhases = (
+				657CE597184F13DE008CE93F /* Sources */,
+				657CE598184F13DE008CE93F /* Frameworks */,
+				657CE599184F13DE008CE93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657CE5A1184F13DE008CE93F /* PBXTargetDependency */,
+			);
+			name = LazioBusTests;
+			productName = LazioBusTests;
+			productReference = 657CE59B184F13DE008CE93F /* LazioBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657CE578184F13DE008CE93F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrea Cerra";
+				TargetAttributes = {
+					655D7F951935F77A00095187 = {
+						DevelopmentTeam = 29883UF8KW;
+					};
+					657CE57F184F13DE008CE93F = {
+						DevelopmentTeam = 29883UF8KW;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					657CE59A184F13DE008CE93F = {
+						TestTargetID = 657CE57F184F13DE008CE93F;
+					};
+				};
+			};
+			buildConfigurationList = 657CE57B184F13DE008CE93F /* Build configuration list for PBXProject "LazioBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+				ro,
+			);
+			mainGroup = 657CE577184F13DE008CE93F;
+			productRefGroup = 657CE581184F13DE008CE93F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657CE57F184F13DE008CE93F /* LazioBus */,
+				655D7F951935F77A00095187 /* LazioBus Lite */,
+				657CE59A184F13DE008CE93F /* LazioBusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655D7FCE1935F77A00095187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655D7FCF1935F77A00095187 /* LBTrovaIndirizzoTableController.xib in Resources */,
+				655D7FD01935F77A00095187 /* InfoPlist.strings in Resources */,
+				655D800E19365BB300095187 /* LBNewsTableViewCell.xib in Resources */,
+				655D7FD11935F77A00095187 /* LBOrariTableViewController.xib in Resources */,
+				655D7FD21935F77A00095187 /* LBIndicazioniCellTableViewCell.xib in Resources */,
+				655D7FD31935F77A00095187 /* LBCalcolaTariffaViewController.xib in Resources */,
+				655D7FD51935F77A00095187 /* LBOrariViewController.xib in Resources */,
+				655D8016193665A700095187 /* LBNewsDetailViewController.xib in Resources */,
+				655D7FD61935F77A00095187 /* README.txt in Resources */,
+				655D7FD71935F77A00095187 /* Images.xcassets in Resources */,
+				655D7FD81935F77A00095187 /* LBCalcolaTariffaDetailController.xib in Resources */,
+				655D7FD91935F77A00095187 /* LBTariffaDetailTableViewCell.xib in Resources */,
+				655D7FDA1935F77A00095187 /* LBTrovaFermataRicercaViewController.xib in Resources */,
+				655D7FDB1935F77A00095187 /* PercorsoAlternativoCell.xib in Resources */,
+				654116E8193C009600F65E55 /* LBCreditsViewController.xib in Resources */,
+				655D7FDC1935F77A00095187 /* LBOrariDetailViewController.xib in Resources */,
+				655D8018193665AE00095187 /* LBContattiViewController.xib in Resources */,
+				653FB6A8193DAD8500E83643 /* Localizable.strings in Resources */,
+				655D7FDD1935F77A00095187 /* LBLVResultDetailViewController.xib in Resources */,
+				655D7FDE1935F77A00095187 /* LBTrovaPercorsoViewController.xib in Resources */,
+				655D7FDF1935F77A00095187 /* LBAlternativeTableViewController.xib in Resources */,
+				655D7FE01935F77A00095187 /* LBMainController.xib in Resources */,
+				655D7FF419361EB600095187 /* LBMoreViewController.xib in Resources */,
+				655D7FE11935F77A00095187 /* LBTrovaFermateLVResultViewController.xib in Resources */,
+				654116D3193714B500F65E55 /* LBLVStopsTableViewCell.xib in Resources */,
+				655D7FE21935F77A00095187 /* LBPopupList.xib in Resources */,
+				655D8014193665A100095187 /* LBNewsViewController.xib in Resources */,
+				655D7FE31935F77A00095187 /* LBPreferitiCell.xib in Resources */,
+				655D7FE41935F77A00095187 /* LBListaFermateTableController.xib in Resources */,
+				655D7FE51935F77A00095187 /* LBListaFermateCell.xib in Resources */,
+				655D7FE61935F77A00095187 /* LBTrovaPercorsoDetailView.xib in Resources */,
+				655D7FE71935F77A00095187 /* LBTrovaFermataTableViewCell.xib in Resources */,
+				655D7FE81935F77A00095187 /* LBTrovaFermataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE57E184F13DE008CE93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E23C0318D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.xib in Resources */,
+				657CE58E184F13DE008CE93F /* InfoPlist.strings in Resources */,
+				657135CF1910F20A0086BC60 /* LBOrariTableViewController.xib in Resources */,
+				6593686118D3374000B8D190 /* LBIndicazioniCellTableViewCell.xib in Resources */,
+				653121A11935D4CD00B513D7 /* LBCalcolaTariffaViewController.xib in Resources */,
+				65C1F5B21901C35000E76767 /* LBOrariViewController.xib in Resources */,
+				654461121924E58800934E76 /* README.txt in Resources */,
+				657CE596184F13DE008CE93F /* Images.xcassets in Resources */,
+				653121BD1935E46E00B513D7 /* LBCalcolaTariffaDetailController.xib in Resources */,
+				655D80011936223E00095187 /* LBNewsDetailViewController.xib in Resources */,
+				653121C21935E4C700B513D7 /* LBTariffaDetailTableViewCell.xib in Resources */,
+				655D7FFA1936222500095187 /* LBNewsViewController.xib in Resources */,
+				657135C51910D5980086BC60 /* LBTrovaFermataRicercaViewController.xib in Resources */,
+				6551E0EF184F3DCF009518D8 /* PercorsoAlternativoCell.xib in Resources */,
+				654116E7193C009600F65E55 /* LBCreditsViewController.xib in Resources */,
+				657135D519111CB80086BC60 /* LBOrariDetailViewController.xib in Resources */,
+				655D800D19365BB300095187 /* LBNewsTableViewCell.xib in Resources */,
+				653FB6A7193DAD8500E83643 /* Localizable.strings in Resources */,
+				653A30311900657C00CE4BD9 /* LBLVResultDetailViewController.xib in Resources */,
+				657CE5E6184F1E53008CE93F /* LBTrovaPercorsoViewController.xib in Resources */,
+				65BC093D190029C800FBAFB8 /* LBAlternativeTableViewController.xib in Resources */,
+				657CE5B3184F1453008CE93F /* LBMainController.xib in Resources */,
+				655D80061936224800095187 /* LBContattiViewController.xib in Resources */,
+				655D7FF219361C7900095187 /* LBMoreViewController.xib in Resources */,
+				654116D1193714AB00F65E55 /* LBLVStopsTableViewCell.xib in Resources */,
+				65852CF618FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.xib in Resources */,
+				6548ECD2192349ED00FF9D77 /* LBPopupList.xib in Resources */,
+				6511FFCC1923E7B1009D6A18 /* LBPreferitiCell.xib in Resources */,
+				654B106718E7343600901E8D /* LBListaFermateTableController.xib in Resources */,
+				654B107018E73E4A00901E8D /* LBListaFermateCell.xib in Resources */,
+				657CE60F184F3163008CE93F /* LBTrovaPercorsoDetailView.xib in Resources */,
+				65852CEB18FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.xib in Resources */,
+				65852CDE18FBCBF500A36DBA /* LBTrovaFermataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE599184F13DE008CE93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657CE5A7184F13DE008CE93F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655D7F961935F77A00095187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655D7F971935F77A00095187 /* LBListaFermateTableController.m in Sources */,
+				655D7F981935F77A00095187 /* LBTrovaPercorsoViewController.m in Sources */,
+				655D800C19365BB300095187 /* LBNewsTableViewCell.m in Sources */,
+				655D7F991935F77A00095187 /* LBTrovaFermataTableViewCell.m in Sources */,
+				655D8015193665A500095187 /* LBNewsDetailViewController.m in Sources */,
+				655D7F9A1935F77A00095187 /* LBLVResultDetailViewController.m in Sources */,
+				655D7F9B1935F77A00095187 /* LBListaFermateCell.m in Sources */,
+				655D7F9C1935F77A00095187 /* LBOrariDetailViewController.m in Sources */,
+				655D7F9D1935F77A00095187 /* LBAppDelegate.m in Sources */,
+				655D7F9E1935F77A00095187 /* MBProgressHUD.m in Sources */,
+				655D80131936658E00095187 /* LBNewsViewController.m in Sources */,
+				655D7F9F1935F77A00095187 /* LBPreferitiCell.m in Sources */,
+				655D7FA01935F77A00095187 /* FMDatabase.m in Sources */,
+				655D7FA11935F77A00095187 /* LBIndicazioniCellTableViewCell.m in Sources */,
+				655D7FA21935F77A00095187 /* LBTrovaFermateLVResultViewController.m in Sources */,
+				655D7FA31935F77A00095187 /* LBTariffaDetailTableViewCell.m in Sources */,
+				655D7FA41935F77A00095187 /* LBPopupList.m in Sources */,
+				655D801219365F0B00095187 /* LBNews.m in Sources */,
+				655D7FA51935F77A00095187 /* LBStop.m in Sources */,
+				655D7FA61935F77A00095187 /* LBPDF.m in Sources */,
+				655D7FA71935F77A00095187 /* LBTrovaFermataViewController.m in Sources */,
+				655D7FA81935F77A00095187 /* FMDatabaseAdditions.m in Sources */,
+				655D7FA91935F77A00095187 /* LBIndication.m in Sources */,
+				655D7FAA1935F77A00095187 /* FMDatabasePool.m in Sources */,
+				655D8017193665AB00095187 /* LBContattiViewController.m in Sources */,
+				655D7FAB1935F77A00095187 /* LBSession.m in Sources */,
+				655D7FAC1935F77A00095187 /* LBCalcolaTariffaViewController.m in Sources */,
+				655D7FAD1935F77A00095187 /* LBOrariTableViewController.m in Sources */,
+				655D7FF319361E4900095187 /* LBMoreViewController.m in Sources */,
+				654116E6193C009600F65E55 /* LBCreditsViewController.m in Sources */,
+				655D7FAE1935F77A00095187 /* LBCalcolaTariffaDetailController.m in Sources */,
+				655D7FAF1935F77A00095187 /* LBAlternativeTableViewController.m in Sources */,
+				655D7FB01935F77A00095187 /* LBOrariViewController.m in Sources */,
+				655D7FB11935F77A00095187 /* LBSpinner.m in Sources */,
+				655D7FB21935F77A00095187 /* ODScrollMenu.m in Sources */,
+				655D7FB31935F77A00095187 /* FMDatabaseQueue.m in Sources */,
+				655D7FB41935F77A00095187 /* LBTrovaFermataRicercaViewController.m in Sources */,
+				655D7FB51935F77A00095187 /* main.m in Sources */,
+				654116D2193714AF00F65E55 /* LBLVStopsTableViewCell.m in Sources */,
+				655D7FB61935F77A00095187 /* LBTrovaIndirizzoTableController.m in Sources */,
+				655D7FB71935F77A00095187 /* LBTrovaPercorsoDetailView.m in Sources */,
+				655D7FB81935F77A00095187 /* LBFare.m in Sources */,
+				655D7FB91935F77A00095187 /* LBButton.m in Sources */,
+				655D7FBA1935F77A00095187 /* FMResultSet.m in Sources */,
+				655D7FBB1935F77A00095187 /* LBResults.m in Sources */,
+				655D7FBC1935F77A00095187 /* LBLVResult.m in Sources */,
+				655D7FBD1935F77A00095187 /* LBRouteStop.m in Sources */,
+				655D7FBE1935F77A00095187 /* UILabel+Boldify.m in Sources */,
+				655D7FBF1935F77A00095187 /* LBPercorsoAlternativoCell.m in Sources */,
+				655D7FC01935F77A00095187 /* ODButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE57C184F13DE008CE93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654B106618E7343600901E8D /* LBListaFermateTableController.m in Sources */,
+				657CE5E5184F1E53008CE93F /* LBTrovaPercorsoViewController.m in Sources */,
+				65852CEA18FBDFAF00A36DBA /* LBTrovaFermataTableViewCell.m in Sources */,
+				653A30301900657C00CE4BD9 /* LBLVResultDetailViewController.m in Sources */,
+				654B106F18E73E4A00901E8D /* LBListaFermateCell.m in Sources */,
+				657135D419111CB80086BC60 /* LBOrariDetailViewController.m in Sources */,
+				657CE594184F13DE008CE93F /* LBAppDelegate.m in Sources */,
+				6511FFC51923DCAA009D6A18 /* MBProgressHUD.m in Sources */,
+				6511FFCB1923E7B1009D6A18 /* LBPreferitiCell.m in Sources */,
+				654B794E18E0360D00FD6CD3 /* FMDatabase.m in Sources */,
+				6593686018D3374000B8D190 /* LBIndicazioniCellTableViewCell.m in Sources */,
+				65852CF518FBE4AD00A36DBA /* LBTrovaFermateLVResultViewController.m in Sources */,
+				653121C11935E4C700B513D7 /* LBTariffaDetailTableViewCell.m in Sources */,
+				655D80001936223E00095187 /* LBNewsDetailViewController.m in Sources */,
+				6548ECD1192349ED00FF9D77 /* LBPopupList.m in Sources */,
+				65E23C0818D074B700AE2EC0 /* LBStop.m in Sources */,
+				657135CA1910EED90086BC60 /* LBPDF.m in Sources */,
+				65852CDD18FBCBF500A36DBA /* LBTrovaFermataViewController.m in Sources */,
+				654B794F18E0360D00FD6CD3 /* FMDatabaseAdditions.m in Sources */,
+				6593685B18D20C9E00B8D190 /* LBIndication.m in Sources */,
+				654B795018E0360D00FD6CD3 /* FMDatabasePool.m in Sources */,
+				658C7D9218E0D13D00850488 /* LBSession.m in Sources */,
+				653121A21935D4CD00B513D7 /* LBCalcolaTariffaViewController.m in Sources */,
+				657135CE1910F20A0086BC60 /* LBOrariTableViewController.m in Sources */,
+				655D7FF119361C7900095187 /* LBMoreViewController.m in Sources */,
+				653121BC1935E46E00B513D7 /* LBCalcolaTariffaDetailController.m in Sources */,
+				65BC093C190029C800FBAFB8 /* LBAlternativeTableViewController.m in Sources */,
+				65C1F5B11901C35000E76767 /* LBOrariViewController.m in Sources */,
+				655D800B19365BB300095187 /* LBNewsTableViewCell.m in Sources */,
+				654116E5193C009600F65E55 /* LBCreditsViewController.m in Sources */,
+				6593685118D1EE3300B8D190 /* LBSpinner.m in Sources */,
+				655D801119365F0B00095187 /* LBNews.m in Sources */,
+				65852CFC18FC29CF00A36DBA /* ODScrollMenu.m in Sources */,
+				654B795118E0360D00FD6CD3 /* FMDatabaseQueue.m in Sources */,
+				657135C41910D5980086BC60 /* LBTrovaFermataRicercaViewController.m in Sources */,
+				657CE590184F13DE008CE93F /* main.m in Sources */,
+				65E23C0218D06BE800AE2EC0 /* LBTrovaIndirizzoTableController.m in Sources */,
+				657CE60E184F3163008CE93F /* LBTrovaPercorsoDetailView.m in Sources */,
+				654116D0193714AB00F65E55 /* LBLVStopsTableViewCell.m in Sources */,
+				653121B71935DE2500B513D7 /* LBFare.m in Sources */,
+				6548ECE819238AC100FF9D77 /* LBButton.m in Sources */,
+				654B795218E0360D00FD6CD3 /* FMResultSet.m in Sources */,
+				655D80051936224800095187 /* LBContattiViewController.m in Sources */,
+				6593685718D20B0100B8D190 /* LBResults.m in Sources */,
+				65852CF918FBE5F300A36DBA /* LBLVResult.m in Sources */,
+				654B106A18E7356600901E8D /* LBRouteStop.m in Sources */,
+				654B106118E7261D00901E8D /* UILabel+Boldify.m in Sources */,
+				6551E0F2184F3DE8009518D8 /* LBPercorsoAlternativoCell.m in Sources */,
+				65852CFF18FC29E400A36DBA /* ODButton.m in Sources */,
+				655D7FF91936222500095187 /* LBNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CE597184F13DE008CE93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657CE5A9184F13DE008CE93F /* LazioBusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657CE5A1184F13DE008CE93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657CE57F184F13DE008CE93F /* LazioBus */;
+			targetProxy = 657CE5A0184F13DE008CE93F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		653FB6A5193DAD8500E83643 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653FB6A6193DAD8500E83643 /* en */,
+				653FB6A9193DCD4C00E83643 /* ro */,
+				653FB6AC193DEE2800E83643 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		657CE58C184F13DE008CE93F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657CE58D184F13DE008CE93F /* en */,
+				653FB6AA193DCD4C00E83643 /* ro */,
+				653FB6AD193DEE2800E83643 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		657CE5A5184F13DE008CE93F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657CE5A6184F13DE008CE93F /* en */,
+				653FB6AB193DCD4C00E83643 /* ro */,
+				653FB6AE193DEE2800E83643 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655D7FEA1935F77A00095187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazioBus/LazioBus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_LITE=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LazioBus/LazioBus Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMob",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "LazioBus Lite";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		655D7FEB1935F77A00095187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazioBus/LazioBus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "IS_LITE=1";
+				INFOPLIST_FILE = "$(SRCROOT)/LazioBus/LazioBus Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMob",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "LazioBus Lite";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		657CE5AA184F13DE008CE93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		657CE5AB184F13DE008CE93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657CE5AD184F13DE008CE93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazioBus/LazioBus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_PRO=1",
+				);
+				INFOPLIST_FILE = "LazioBus/LazioBus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMob",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		657CE5AE184F13DE008CE93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazioBus/LazioBus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "IS_PRO=1";
+				INFOPLIST_FILE = "LazioBus/LazioBus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMob",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		657CE5B0184F13DE008CE93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LazioBus.app/LazioBus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazioBus/LazioBus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LazioBusTests/LazioBusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		657CE5B1184F13DE008CE93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LazioBus.app/LazioBus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazioBus/LazioBus-Prefix.pch";
+				INFOPLIST_FILE = "LazioBusTests/LazioBusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655D7FE91935F77A00095187 /* Build configuration list for PBXNativeTarget "LazioBus Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655D7FEA1935F77A00095187 /* Debug */,
+				655D7FEB1935F77A00095187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657CE57B184F13DE008CE93F /* Build configuration list for PBXProject "LazioBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657CE5AA184F13DE008CE93F /* Debug */,
+				657CE5AB184F13DE008CE93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657CE5AC184F13DE008CE93F /* Build configuration list for PBXNativeTarget "LazioBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657CE5AD184F13DE008CE93F /* Debug */,
+				657CE5AE184F13DE008CE93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657CE5AF184F13DE008CE93F /* Build configuration list for PBXNativeTarget "LazioBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657CE5B0184F13DE008CE93F /* Debug */,
+				657CE5B1184F13DE008CE93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657CE578184F13DE008CE93F /* Project object */;
+}
